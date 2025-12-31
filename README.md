@@ -1,4 +1,4 @@
-# MSC-PnP: DiffWave-based Speech Generation with Noise Prediction
+# Partial Noise Prediction: A Low-Step Diffusion Vocoder for Efficient Speech Synthesis
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg )](LICENSE)
 
@@ -26,8 +26,8 @@ mscpnp/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/muxingwang14-hub/MSC-PNP.git
-   cd MSC-PNP
+   git clone https://github.com/muxingwang14-hub/DiffWave-PNP.git
+   cd DiffWave-PNP
    ```
 
 2. **Install Python dependencies**
@@ -111,9 +111,7 @@ python inference.py /path/to/model/dir --pairs_list test_pairs.txt --test --use_
 - Gradually reduces from full diffusion process to partial prediction
 - Balances generation quality and computational efficiency
 
-### 4. Multi-Scale STFT Loss
-- Combines L1 loss with multi-scale spectral loss
-- Improves audio quality and spectral fidelity
+
 
 ---
 
